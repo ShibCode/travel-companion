@@ -12,7 +12,9 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home__headerContent">
-        <div className="home__logo">Travel Companion</div>
+        <Link to="/" className="home__logo">
+          Travel Companion
+        </Link>
 
         <div className="home__links">
           <Link to="/explore" className="home__link">
