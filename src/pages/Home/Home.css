@@ -69,8 +69,8 @@
 }
 
 .home__heading {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .home__para {
@@ -93,6 +93,10 @@
 }
 
 @media (max-width: 450px) {
+  .home__bodyLeft {
+    max-width: 95% !important;
+  }
+
   .home__logo {
     font-size: 18px;
   }
