@@ -111,64 +111,84 @@ const Home = () => {
           </div>
 
           <div className="home__footerBottom-center1">
-            <div className="home__footerSocial">
+            <a href="#" className="home__footerSocial">
               <FontAwesomeIcon icon={faFacebookF} />
-            </div>
+            </a>
 
-            <div className="home__footerSocial">
+            <a href="#" className="home__footerSocial">
               <FontAwesomeIcon icon={faTwitter} />
-            </div>
+            </a>
 
-            <div className="home__footerSocial">
+            <a href="#" className="home__footerSocial">
               <FontAwesomeIcon icon={faInstagram} />
-            </div>
+            </a>
 
-            <div className="home__footerSocial">
+            <a href="#" className="home__footerSocial">
               <FontAwesomeIcon icon={faYoutube} />
-            </div>
+            </a>
 
-            <div className="home__footerSocial">
+            <a href="#" className="home__footerSocial">
               <FontAwesomeIcon icon={faLinkedinIn} />
-            </div>
+            </a>
           </div>
 
           <div className="home__footerBottom-center2">
             <ul className="home__footerList">
-              <li className="home__footerListItem">Company</li>
-              <li className="home__footerListItem">Jobs</li>
-              <li className="home__footerListItem">Press</li>
-              <li className="home__footerListItem">Investor relations</li>
+              <li className="home__footerListItem">
+                <a href="#">Company</a>{" "}
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Jobs</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Press</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Investor relations</a>
+              </li>
             </ul>
 
             <ul className="home__footerList">
               <li className="home__footerListItem">
-                Mobile apps - searching on the go
+                <a href="#"> Mobile apps - searching on the go</a>
               </li>
               <li className="home__footerListItem">
-                Travelling Companion Business Studio
+                <a href="#">Travelling Companion Business Studio</a>
               </li>
             </ul>
 
             <ul className="home__footerList">
-              <li className="home__footerListItem">Help</li>
               <li className="home__footerListItem">
-                Learn how travelling companion works
+                <a href="#"> Help</a>
               </li>
-              <li className="home__footerListItem">Terms and conditions</li>
-              <li className="home__footerListItem">Legal information</li>
               <li className="home__footerListItem">
-                Do not sell my personal information
+                <a href="#"> Learn how travelling companion works</a>
               </li>
-              <li className="home__footerListItem">Privacy notice</li>
-              <li className="home__footerListItem">Cyber security</li>
               <li className="home__footerListItem">
-                Coronavirus (Covid-19) travel advice
+                <a href="#">Terms and conditions</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Legal information</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#"> Do not sell my personal information</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Privacy notice</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Cyber security</a>
+              </li>
+              <li className="home__footerListItem">
+                <a href="#">Coronavirus (Covid-19) travel advice</a>
               </li>
             </ul>
           </div>
 
           <div className="home__footerBottom-bottom">
-            <div className="home__footerLogo">Travelling Companion</div>
+            <Link to={"/"} className="home__footerLogo">
+              Travelling Companion
+            </Link>
 
             <div className="home__footerCopyright">
               Copyright 2022 Travelling Companion | All rights reserved
